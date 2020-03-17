@@ -1,0 +1,45 @@
+body{
+    font-family:"avenir next";
+}
+
+.header{
+    background-color: #26d0c9;
+    width: 100%;
+    height: 60px;
+    position:fixed;
+    top:0;
+}
+.main{
+    padding: 60px 3px;
+}
+.header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+    padding: 20px 50px;
+  }
+
+  .header-right:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }  
+  
+
+.top-wrapper {
+    height:600px;
+    background-image: url(https://www.fda.gov/files/styles/main_image_medium/public/coronavirus-graphic-web-feature.jpg?itok=Ihjpj6);
+    background-size: cover ;
+    width: 100%;
+    
+
+  }
+  .footer{
+      background-color: #2f5167;
+      color: #fff;
+      height: 60px;
+      padding:40px;
+
+  }
+  .footer-logo{
+      float: left;
+      font-size: 32px;
+  }
